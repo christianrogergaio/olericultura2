@@ -1,0 +1,297 @@
+\documentclass[t]{beamer}
+\usepackage[portuges]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+%%%
+%%% Define cores
+%%%
+\definecolor{cinza}{HTML}{75818B}
+\definecolor{verdeufsc}{HTML}{006633}
+
+%%%
+%%% Configurações do Beamer
+%%%
+\setbeamertemplate{navigation symbols}{}
+\setbeamersize{text margin left=10mm,text margin right=5mm} 
+
+\setbeamercolor{frametitle}{fg=cinza}
+\setbeamerfont{frametitle}{series=\bfseries}
+\setbeamerfont{frametitle}{size=\huge}
+\addtobeamertemplate{frametitle}{\vspace*{2mm}}{\vspace*{5mm}}
+
+%%%
+%%% Paginação
+%%%
+\addtobeamertemplate{navigation symbols}{}{
+\usebeamerfont{footline}
+\usebeamercolor[fg]{footline}
+}
+\setbeamercolor{footline}{fg=cinza}
+\setbeamerfont{footline}{series=\bfseries}
+\setbeamerfont{footline}{size=\tiny}
+\setbeamertemplate{footline}{
+\usebeamerfont{page number in head}
+\usebeamercolor[fg]{page number in head}
+\hspace{5mm}
+\insertframenumber/\inserttotalframenumber
+\vspace{5mm}
+}
+
+\setbeamertemplate{itemize items}[ball]
+\setbeamertemplate{caption}[numbered]
+
+%%%
+%%% Background
+%%%
+\usebackgroundtemplate
+{
+\includegraphics[width=\paperwidth,height=\paperheight]{fundo.png}
+}
+
+%%%
+%%% Estrutura (TOC)
+%%%
+\AtBeginSection[]{\frame{\frametitle{Roteiro}\tableofcontents[current]}}
+
+\setbeamerfont{section in toc}{series=\bfseries}
+\setbeamercolor{section in toc}{fg=gray}
+\setbeamerfont{section in toc shaded}{series=\mdseries}
+\setbeamercolor{section in toc shaded}{fg=gray!01}
+\setbeamercolor{subsection in toc}{fg=cinza}
+\setbeamercolor{subsection in toc shaded}{fg=gray!60}
+
+\mode<presentation>
+
+\begin{document}
+%%% CORREÇÃO DO ERRO: Desativa a função especial das aspas no babel
+\shorthandoff{"} 
+
+%%%
+%%% SLIDE 1: CAPA
+%%%
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{capa.png}}
+\begin{frame}[plain]
+\vspace{18mm}
+\begin{flushright}
+\textcolor{cinza}{\textbf{\huge{
+Salvia sclarea: \\
+Fronteiras da Ciência Global
+}}}
+\end{flushright}
+
+\vspace{-6mm}
+\begin{flushright}
+\textcolor{cinza}{\textbf{\scriptsize{
+Christian \& Eloísa Cerezolli
+}}}
+\end{flushright}
+
+\vspace{-7mm}
+\begin{flushright}
+\textcolor{cinza}{\scriptsize{
+Olericultura II | Agronomia | UFSC
+}}
+\end{flushright}
+\end{frame}
+}
+
+%%%
+%%% SLIDE 2: A PROMESSA
+%%%
+\begin{frame}
+\frametitle{A Promessa}
+\Large
+\textbf{Ao final desta apresentação, vocês entenderão:}
+
+\vspace{0.5cm}
+\begin{itemize}
+    \item Como a \textbf{China} está ``hackeando'' a biossíntese.
+    \item Como o \textbf{Japão} descobriu a defesa oculta da planta.
+    \item O novo mapa genético da \textbf{Coreia do Sul}.
+    \item A agronomia de precisão da \textbf{Europa} para o cultivo.
+\end{itemize}
+\end{frame}
+
+\section{Biotecnologia e Genética (Ásia)}
+
+%%%
+%%% SLIDE 3: CHINA
+%%%
+\begin{frame}
+\frametitle{China: A Fábrica Celular}
+\textit{Dalian Institute of Chemical Physics (CAS, 2025)}
+
+\vspace{0.5cm}
+\textbf{O Problema:}
+\begin{itemize}
+    \item Dependência da safra agrícola para o \textit{Ambrox} (perfumaria).
+\end{itemize}
+
+\vspace{0.3cm}
+\textbf{A Solução (``The Hack''):}
+\begin{itemize}
+    \item Engenharia metabólica em leveduras (\textit{S. cerevisiae}).
+    \item \textbf{Resultado:} Biossíntese de \textbf{Esclareol} em escala industrial, sem plantar um hectare.
+\end{itemize}
+
+\vspace{0.3cm}
+\footnotesize{Fonte: ``Lifespan Engineering Strengthens Yeast Cell Factories...''}
+\end{frame}
+
+%%%
+%%% SLIDE 4: JAPÃO
+%%%
+\begin{frame}
+\frametitle{Japão: O Guarda-Costas}
+\textit{NARO \& Universidades Japonesas}
+
+\vspace{0.5cm}
+\textbf{A Descoberta (Fujimoto et al.):}
+\begin{itemize}
+    \item O Esclareol não é apenas um aroma.
+    \item Ele induz \textbf{resistência ativa} contra nematoides (\textit{Meloidogyne}).
+\end{itemize}
+
+\vspace{0.3cm}
+\textbf{O Mecanismo:}
+\begin{itemize}
+    \item Aumento da lignificação das raízes (dependente de etileno).
+    \item \textbf{Impacto:} Variedades com alto teor de óleo são mais resistentes a pragas de solo.
+\end{itemize}
+\end{frame}
+
+%%%
+%%% SLIDE 5: COREIA
+%%%
+\begin{frame}
+\frametitle{Coreia: O Mapa do Tesouro}
+\textit{Chungnam National University (2024/25)}
+
+\vspace{0.5cm}
+\textbf{O Marco Científico:}
+\begin{itemize}
+    \item Primeiro \textbf{Genoma Completo a Nível Cromossômico}.
+\end{itemize}
+
+\vspace{0.3cm}
+\textbf{Por que importa?}
+\begin{itemize}
+    \item Permite Seleção Assistida por Marcadores (MAS).
+    \item Controle preciso da razão \textit{Linalol} (Flor) vs. \textit{Acetato de Linalila} (Frescor).
+\end{itemize}
+\end{frame}
+
+\section{Agronomia de Campo (Europa)}
+
+%%%
+%%% SLIDE 6: AGRONOMIA
+%%%
+\begin{frame}
+\frametitle{Europa: Otimização no Campo}
+\textit{Estudos da Itália (Sicília) e Ucrânia}
+
+\begin{columns}[c]
+\begin{column}{.5\textwidth}
+\textbf{Itália (Qualidade):}
+\begin{itemize}
+    \item Estresse hídrico controlado favorece o acetato de linalila.
+    \item Plasticidade fenotípica alta.
+\end{itemize}
+\end{column}
+
+\begin{column}{.5\textwidth}
+\textbf{Ucrânia (Produtividade):}
+\begin{itemize}
+    \item Ano 1: Estabelecimento.
+    \item \textbf{Ano 2: Pico (15 ton/ha).}
+    \item Ano 3: Queda brusca (10\% do pico).
+    \item \textbf{Conclusão:} Rotação trienal obrigatória.
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\section{Aplicação na Olericultura}
+
+%%%
+%%% SLIDE 7: TABELA TÉCNICA
+%%%
+\begin{frame}
+\frametitle{Diretrizes de Cultivo (Padrão INRAE)}
+\small
+\begin{table}[]
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Parâmetro} & \textbf{Recomendação Científica} \\ \midrule
+\textbf{Ciclo} & Bienal a perene curta (Foco no 2º ano). \\
+\textbf{Solo} & Calcário, bem drenado. Tolera metais (cuidado!). \\
+\textbf{Ponto de Colheita} & \textbf{Estágio de ``Leite'':} Sementes da base leitosas, \\
+ & flores do topo abertas. \\
+\textbf{Risco} & Colheita tardia reduz Linalol drasticamente. \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\vspace{0.5cm}
+\textbf{Recomendação para Santa Catarina:}
+\begin{itemize}
+    \item Atenção à drenagem do solo (excesso de chuva prejudica o óleo).
+\end{itemize}
+\end{frame}
+
+%%%
+%%% SLIDE 8: CONCLUSÃO
+%%%
+\begin{frame}
+\frametitle{Conclusão}
+\Large
+\textbf{O que levamos hoje:}
+
+\vspace{0.5cm}
+\begin{itemize}
+    \item A \textit{Salvia sclarea} deixou de ser apenas uma cultura rústica.
+    \item É um alvo de \textbf{alta tecnologia} genética e biossintética.
+    \item O manejo agronômico deve focar na \textbf{colheita precisa} (estágio de leite) e rotação a cada 3 anos para viabilidade econômica.
+\end{itemize}
+\end{frame}
+
+%%%
+%%% SLIDE FINAL
+%%%
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{capa.png}}
+\begin{frame}[plain]
+\vspace{15mm}
+\begin{center}
+\textcolor{cinza}{\textbf{Obrigado}}
+\end{center}
+
+\vspace{-6mm}
+\begin{center}
+\textcolor{cinza}{\scriptsize{
+Dúvidas?
+}}
+\end{center}
+
+\vspace{10mm}
+\begin{center}
+\textcolor{cinza}{\scriptsize{
+Christian (18201955) \& Eloísa Cerezolli \\
+Agronomia UFSC
+}}
+\end{center}
+\end{frame}
+}
+
+\end{document}
