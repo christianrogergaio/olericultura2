@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.19)  7 DEC 2025 17:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.19)  7 DEC 2025 20:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -580,13 +580,18 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisrulewidth=\dimen307
 ) (C:\Users\crg\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+) (C:\Users\crg\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks48
+\verbatim@line=\toks49
+\verbatim@in@stream=\read4
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 68.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 70.
  (C:\Users\crg\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 68.
+(Font)              scaled to size 10.40245pt on input line 70.
  (C:\Users\crg\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count342
@@ -594,24 +599,24 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 ) (apresentacaosalvia.aux)
 \openout1 = `apresentacaosalvia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -654,65 +659,65 @@ LaTeX Font Info:    ... okay on input line 68.
 \scratchbox=\box77
 \nofMPsegments=\count344
 \nofMParguments=\count345
-\everyMPshowfont=\toks48
+\everyMPshowfont=\toks50
 \MPscratchCnt=\count346
 \MPscratchDim=\dimen309
 \MPnumerator=\count347
 \makeMPintoPDFobject=\count348
-\everyMPtoPDFconversion=\toks49
+\everyMPtoPDFconversion=\toks51
 ) (C:\Users\crg\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\crg\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 68.
+Package hyperref Info: Link coloring OFF on input line 70.
  (apresentacaosalvia.out) (apresentacaosalvia.out)
 \@outlinefile=\write5
 \openout5 = `apresentacaosalvia.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 68.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 70.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 68.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 70.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 68.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 68.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 68.
+(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 68.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 68.
+(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 68.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 68.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 68.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 68.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 68.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 68.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 68.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 68.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 70.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 68.
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 70.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 68.
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 68.
+(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/phv/b/n --> T1/phv/b/n on input line 68.
+(Font)                  T1/phv/b/n --> T1/phv/b/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 68.
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 68.
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 68.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 70.
  (C:\Users\crg\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (C:\Users\crg\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-English.dict
@@ -727,164 +732,199 @@ Dictionary: translator-numbers-dictionary, Language: English
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (apresentacaosalvia.nav)
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 68.
+(Font)              scaled to size 5.69998pt on input line 70.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 5.69998pt on input line 68.
+(Font)              scaled to size 5.69998pt on input line 70.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 98.
+(Font)              scaled to size 10.40245pt on input line 100.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 19.70294pt on input line 98.
+(Font)              scaled to size 19.70294pt on input line 100.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <20.74> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 98.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 100.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 19.70294pt on input line 98.
+(Font)              scaled to size 19.70294pt on input line 100.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.59998pt on input line 98.
+(Font)              scaled to size 7.59998pt on input line 100.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 98.
-<capa.png, id=24, 1030.38416pt x 772.78812pt>
+(Font)              scaled to size 7.59998pt on input line 100.
+<capa.png, id=20, 1030.38416pt x 772.78812pt>
 File: capa.png Graphic file (type png)
 <use capa.png>
-Package pdftex.def Info: capa.png  used on input line 98.
+Package pdftex.def Info: capa.png  used on input line 100.
 (pdftex.def)             Requested size: 364.19536pt x 273.14484pt.
  [1
 
 {C:/Users/crg/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/crg/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./capa.png>]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 116.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 116.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 19.70294pt on input line 116.
-<fundo.png, id=37, 1030.38416pt x 772.78812pt>
+(Font)              scaled to size 19.70294pt on input line 117.
+<fundo.png, id=33, 1030.38416pt x 772.78812pt>
 File: fundo.png Graphic file (type png)
 <use fundo.png>
-Package pdftex.def Info: fundo.png  used on input line 116.
+Package pdftex.def Info: fundo.png  used on input line 117.
 (pdftex.def)             Requested size: 364.19312pt x 273.14484pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 3.79999pt on input line 116.
+(Font)              scaled to size 3.79999pt on input line 117.
  [2
 
  <./fundo.png>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 145.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 154.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 145.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 145.
+(Font)              scaled to size 10.40245pt on input line 154.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 154.
  (C:\Users\crg\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 145.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 154.
  (C:\Users\crg\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 145.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 154.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 7.59998pt on input line 145.
+(Font)              scaled to size 7.59998pt on input line 154.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 145.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 154.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 5.69998pt on input line 145.
-<mapamaior.png, id=44, 455.90324pt x 271.61475pt>
+(Font)              scaled to size 5.69998pt on input line 154.
+<mapamaior.png, id=40, 455.90324pt x 271.61475pt>
 File: mapamaior.png Graphic file (type png)
 <use mapamaior.png>
-Package pdftex.def Info: mapamaior.png  used on input line 145.
+Package pdftex.def Info: mapamaior.png  used on input line 154.
 (pdftex.def)             Requested size: 144.68132pt x 86.19734pt.
-File: fundo.png Graphic file (type png)
-<use fundo.png>
-Package pdftex.def Info: fundo.png  used on input line 145.
-(pdftex.def)             Requested size: 364.19312pt x 273.14484pt.
- [3
-
- <./mapamaior.png>]
 File: fundo.png Graphic file (type png)
 <use fundo.png>
 Package pdftex.def Info: fundo.png  used on input line 154.
 (pdftex.def)             Requested size: 364.19312pt x 273.14484pt.
- [4
+ [3
 
-]
+ <./mapamaior.png>]
+<prancha-salvia.jpg, id=49, 453.695pt x 597.23125pt>
+File: prancha-salvia.jpg Graphic file (type jpg)
+<use prancha-salvia.jpg>
+Package pdftex.def Info: prancha-salvia.jpg  used on input line 188.
+(pdftex.def)             Requested size: 115.74548pt x 152.36029pt.
 File: fundo.png Graphic file (type png)
 <use fundo.png>
-Package pdftex.def Info: fundo.png  used on input line 176.
+Package pdftex.def Info: fundo.png  used on input line 188.
+(pdftex.def)             Requested size: 364.19312pt x 273.14484pt.
+ [4
+
+ <./prancha-salvia.jpg>]
+File: fundo.png Graphic file (type png)
+<use fundo.png>
+Package pdftex.def Info: fundo.png  used on input line 201.
 (pdftex.def)             Requested size: 364.19312pt x 273.14484pt.
  [5
 
 ]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 331.
+ (C:\Users\crg\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 331.
+<fotosalvia.jpg, id=60, 1084.05pt x 1355.0625pt>
+File: fotosalvia.jpg Graphic file (type jpg)
+<use fotosalvia.jpg>
+Package pdftex.def Info: fotosalvia.jpg  used on input line 331.
+(pdftex.def)             Requested size: 128.60698pt x 160.7396pt.
 File: fundo.png Graphic file (type png)
 <use fundo.png>
-Package pdftex.def Info: fundo.png  used on input line 198.
+Package pdftex.def Info: fundo.png  used on input line 331.
 (pdftex.def)             Requested size: 364.19312pt x 273.14484pt.
  [6
 
-]
+ <./fotosalvia.jpg>]
 File: fundo.png Graphic file (type png)
 <use fundo.png>
-Package pdftex.def Info: fundo.png  used on input line 220.
+Package pdftex.def Info: fundo.png  used on input line 356.
 (pdftex.def)             Requested size: 364.19312pt x 273.14484pt.
  [7
 
 ]
+<video_print.png, id=74, 660.66824pt x 400.49625pt>
+File: video_print.png Graphic file (type png)
+<use video_print.png>
+Package pdftex.def Info: video_print.png  used on input line 370.
+(pdftex.def)             Requested size: 257.21397pt x 155.92401pt.
 File: fundo.png Graphic file (type png)
 <use fundo.png>
-Package pdftex.def Info: fundo.png  used on input line 249.
+Package pdftex.def Info: fundo.png  used on input line 370.
 (pdftex.def)             Requested size: 364.19312pt x 273.14484pt.
  [8
 
-]
-<video_print.png, id=81, 660.66824pt x 400.49625pt>
-File: video_print.png Graphic file (type png)
-<use video_print.png>
-Package pdftex.def Info: video_print.png  used on input line 264.
-(pdftex.def)             Requested size: 257.21397pt x 155.92401pt.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 264.
+ <./video_print.png>]
+<macarraodoido.jpg, id=81, 1606.0pt x 459.7175pt>
+File: macarraodoido.jpg Graphic file (type jpg)
+<use macarraodoido.jpg>
+Package pdftex.def Info: macarraodoido.jpg  used on input line 400.
+(pdftex.def)             Requested size: 152.71971pt x 43.7157pt.
+<nhoquezoom.jpg, id=82, 301.125pt x 427.5975pt>
+File: nhoquezoom.jpg Graphic file (type jpg)
+<use nhoquezoom.jpg>
+Package pdftex.def Info: nhoquezoom.jpg  used on input line 400.
+(pdftex.def)             Requested size: 80.37906pt x 114.13489pt.
 File: fundo.png Graphic file (type png)
 <use fundo.png>
-Package pdftex.def Info: fundo.png  used on input line 264.
+Package pdftex.def Info: fundo.png  used on input line 400.
 (pdftex.def)             Requested size: 364.19312pt x 273.14484pt.
  [9
 
- <./video_print.png>]
-<buracofeijao.jpg, id=88, 818.05624pt x 747.79375pt>
+ <./macarraodoido.jpg> <./nhoquezoom.jpg>]
+File: fundo.png Graphic file (type png)
+<use fundo.png>
+Package pdftex.def Info: fundo.png  used on input line 413.
+(pdftex.def)             Requested size: 364.19312pt x 273.14484pt.
+ [10
+
+]
+<indicacoessalvia.jpg, id=94, 747.79375pt x 362.35374pt>
+File: indicacoessalvia.jpg Graphic file (type jpg)
+<use indicacoessalvia.jpg>
+Package pdftex.def Info: indicacoessalvia.jpg  used on input line 421.
+(pdftex.def)             Requested size: 321.51625pt x 155.79248pt.
+File: fundo.png Graphic file (type png)
+<use fundo.png>
+Package pdftex.def Info: fundo.png  used on input line 421.
+(pdftex.def)             Requested size: 364.19312pt x 273.14484pt.
+ [11
+
+ <./indicacoessalvia.jpg>]
+<buracofeijao.jpg, id=100, 818.05624pt x 747.79375pt>
 File: buracofeijao.jpg Graphic file (type jpg)
 <use buracofeijao.jpg>
-Package pdftex.def Info: buracofeijao.jpg  used on input line 299.
+Package pdftex.def Info: buracofeijao.jpg  used on input line 457.
 (pdftex.def)             Requested size: 143.23529pt x 130.92291pt.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 299.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 457.
  (C:\Users\crg\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 299.
+(Font)              scaled to size 4.74998pt on input line 457.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 299.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 457.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 4.74998pt on input line 299.
+(Font)              scaled to size 4.74998pt on input line 457.
 File: fundo.png Graphic file (type png)
 <use fundo.png>
-Package pdftex.def Info: fundo.png  used on input line 299.
+Package pdftex.def Info: fundo.png  used on input line 457.
 (pdftex.def)             Requested size: 364.19312pt x 273.14484pt.
- [10
+ [12
 
  <./buracofeijao.jpg>]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 314.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 13.67995pt on input line 314.
 File: fundo.png Graphic file (type png)
 <use fundo.png>
-Package pdftex.def Info: fundo.png  used on input line 314.
+Package pdftex.def Info: fundo.png  used on input line 476.
 (pdftex.def)             Requested size: 364.19312pt x 273.14484pt.
- [11
+ [13
 
 ]
 File: capa.png Graphic file (type png)
 <use capa.png>
-Package pdftex.def Info: capa.png  used on input line 329.
+Package pdftex.def Info: capa.png  used on input line 491.
 (pdftex.def)             Requested size: 364.19536pt x 273.14484pt.
- [12
+ [14
 
 ]
 \tf@nav=\write6
@@ -902,20 +942,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `apresentacaosalvia.out' has not changed.
-(rerunfilecheck)             Checksum: 61183C527C409F271A7CA1DBB274D04B;541.
+(rerunfilecheck)             Checksum: 4D3D14AA5D37C33E041BE3AFD58340EE;384.
  ) 
 Here is how much of TeX's memory you used:
- 22807 strings out of 474485
- 438627 string characters out of 5744678
- 1932542 words of memory out of 5000000
- 44577 multiletter control sequences out of 15000+600000
- 611492 words of font info for 92 fonts, out of 8000000 for 9000
+ 22917 strings out of 474485
+ 440944 string characters out of 5744678
+ 1934542 words of memory out of 5000000
+ 44679 multiletter control sequences out of 15000+600000
+ 602650 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,123p,461b,676s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\crg\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi450\ectt0800.pk><C:/Users/crg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/crg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/crg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/crg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/crg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/crg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on apresentacaosalvia.pdf (12 pages, 2563239 bytes).
+ <C:\Users\crg\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi450\ectt0800.pk><C:/Users/crg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/crg/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/crg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/crg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/crg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/crg/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on apresentacaosalvia.pdf (14 pages, 3284585 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 115 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,3 @@
 \babel@toc {portuges}{}\relax 
 \beamer@sectionintoc {1}{Fisiologia e Genética (Ásia)}{3}{0}{1}
-\beamer@sectionintoc {2}{Agronomia de Precisão}{8}{0}{2}
-\beamer@sectionintoc {3}{Aplicação na Olericultura}{9}{0}{3}
+\beamer@sectionintoc {2}{Aplicação na Olericultura}{8}{0}{2}
