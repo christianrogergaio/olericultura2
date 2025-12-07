@@ -59,21 +59,14 @@
 }
 
 %%%
-%%% Estrutura (TOC)
+%%% AQUI ESTAVA O COMANDO REMOVIDO (\AtBeginSection)
+%%% Agora o roteiro não aparecerá automaticamente entre as seções.
 %%%
-\AtBeginSection[]{\frame{\frametitle{Roteiro}\tableofcontents[current]}}
-
-\setbeamerfont{section in toc}{series=\bfseries}
-\setbeamercolor{section in toc}{fg=gray}
-\setbeamerfont{section in toc shaded}{series=\mdseries}
-\setbeamercolor{section in toc shaded}{fg=gray!01}
-\setbeamercolor{subsection in toc}{fg=cinza}
-\setbeamercolor{subsection in toc shaded}{fg=gray!60}
 
 \mode<presentation>
 
 \begin{document}
-%%% CORREÇÃO DO ERRO: Desativa a função especial das aspas no babel
+% Desativa atalhos do babel para evitar erro de aspas
 \shorthandoff{"} 
 
 %%%
@@ -82,27 +75,26 @@
 {
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{capa.png}}
 \begin{frame}[plain]
-\vspace{18mm}
-\begin{flushright}
+\vspace{15.5mm}
+\begin{center}
 \textcolor{cinza}{\textbf{\huge{
-Salvia sclarea: \\
-Fronteiras da Ciência Global
+\textit{Salvia officinalis}
 }}}
-\end{flushright}
+\end{center}
 
-\vspace{-6mm}
-\begin{flushright}
+\vspace{-3mm}
+\begin{center}
 \textcolor{cinza}{\textbf{\scriptsize{
-Christian \& Eloísa Cerezolli
+Christian e Eloísa Cerezolli
 }}}
-\end{flushright}
+\end{center}
 
 \vspace{-7mm}
-\begin{flushright}
+\begin{center}
 \textcolor{cinza}{\scriptsize{
 Olericultura II | Agronomia | UFSC
 }}
-\end{flushright}
+\end{center}
 \end{frame}
 }
 
@@ -116,140 +108,195 @@ Olericultura II | Agronomia | UFSC
 
 \vspace{0.5cm}
 \begin{itemize}
-    \item Como a \textbf{China} está ``hackeando'' a biossíntese.
-    \item Como o \textbf{Japão} descobriu a defesa oculta da planta.
-    \item O novo mapa genético da \textbf{Coreia do Sul}.
-    \item A agronomia de precisão da \textbf{Europa} para o cultivo.
+    \item Como o \textbf{Japão} usa a Sálvia para regenerar pele humana.
+    \item A ``assinatura metabólica'' descoberta pela \textbf{China}.
+    \item O segredo do DNA Mitocondrial (revelado em 2023).
+    \item A \textbf{Regra das 16:00} que define o lucro na lavoura.
 \end{itemize}
 \end{frame}
 
-\section{Biotecnologia e Genética (Ásia)}
-
-%%%
-%%% SLIDE 3: CHINA
-%%%
+\section{Fisiologia e Genética (Ásia)}
+%%% slide 2: introdução salvia
+%%%%
 \begin{frame}
-\frametitle{China: A Fábrica Celular}
-\textit{Dalian Institute of Chemical Physics (CAS, 2025)}
-
-\vspace{0.5cm}
-\textbf{O Problema:}
-\begin{itemize}
-    \item Dependência da safra agrícola para o \textit{Ambrox} (perfumaria).
-\end{itemize}
-
+    \frametitle{Introdução}
 \vspace{0.3cm}
-\textbf{A Solução (``The Hack''):}
-\begin{itemize}
-    \item Engenharia metabólica em leveduras (\textit{S. cerevisiae}).
-    \item \textbf{Resultado:} Biossíntese de \textbf{Esclareol} em escala industrial, sem plantar um hectare.
-\end{itemize}
 
-\vspace{0.3cm}
-\footnotesize{Fonte: ``Lifespan Engineering Strengthens Yeast Cell Factories...''}
+    \begin{columns}[c] % O parâmetro [c] alinha verticalmente pelo centro
+    
+        % --- COLUNA DA ESQUERDA (TEXTO) ---
+        \begin{column}{0.55\textwidth}
+            \begin{itemize}
+                \item \textit{Salvia officinalis L.} (Lamiaceae) - Sálvia-comum.
+   \end{itemize}
+        \end{column}
+
+        % --- COLUNA DA DIREITA (IMAGEM) ---
+        \begin{column}{0.45\textwidth}
+            \begin{center}
+                % Ajustei a largura para preencher a coluna
+                \includegraphics[width=1\textwidth]{mapamaior.png}
+                \vspace{-5mm}
+                
+            \end{center}
+        \end{column}
+        
+    \end{columns}
 \end{frame}
 
+%%%slide de todos os slides
+\begin{frame}
+    \begin{itemize}
+        \item Japão: Biotecnologia Dérmica
+        \item Cromossomos circulares
+        \item Regra das 16h
+    \end{itemize}
+\end{frame}   
+
 %%%
-%%% SLIDE 4: JAPÃO
+%%% SLIDE 3: JAPÃO
 %%%
 \begin{frame}
-\frametitle{Japão: O Guarda-Costas}
-\textit{NARO \& Universidades Japonesas}
+\frametitle{Japão: Biotecnologia Dérmica}
+\textit{Journal of Cosmetics \& Dermatological Sciences (2022)}
 
 \vspace{0.5cm}
-\textbf{A Descoberta (Fujimoto et al.):}
+\textbf{A Descoberta (Aioi et al.):}
 \begin{itemize}
-    \item O Esclareol não é apenas um aroma.
-    \item Ele induz \textbf{resistência ativa} contra nematoides (\textit{Meloidogyne}).
+    \item Extratos de \textit{S. officinalis} ativam o canal iônico \textbf{TRPV4} em células humanas.
 \end{itemize}
 
 \vspace{0.3cm}
 \textbf{O Mecanismo:}
 \begin{itemize}
-    \item Aumento da lignificação das raízes (dependente de etileno).
-    \item \textbf{Impacto:} Variedades com alto teor de óleo são mais resistentes a pragas de solo.
+    \item A ativação regula o fluxo de Cálcio ($Ca^{2+}$).
+    \item \textbf{Resultado:} Recuperação acelerada da barreira cutânea e formação de novas junções celulares.
+    \item \textit{Não é apenas um chá, é um agente regenerativo.}
 \end{itemize}
 \end{frame}
 
 %%%
-%%% SLIDE 5: COREIA
+%%% SLIDE 4: CHINA
 %%%
 \begin{frame}
-\frametitle{Coreia: O Mapa do Tesouro}
-\textit{Chungnam National University (2024/25)}
+\frametitle{China: A Assinatura Química}
+\textit{Fudan University (2025)}
+
+\vspace{0.5cm}
+\textbf{O Estudo:}
+\begin{itemize}
+    \item Metabolômica Espacial comparando \textit{S. officinalis} vs. \textit{S. miltiorrhiza}.
+\end{itemize}
+
+\vspace{0.3cm}
+\textbf{A Diferença Chave:}
+\begin{itemize}
+    \item Enquanto outras sálvias focam em anéis furanos...
+    \item A \textit{S. officinalis} é uma fábrica de \textbf{Ácido Carnósico} e pequenos voláteis.
+    \item \textbf{Aplicação:} Identificação molecular para evitar fraudes em extratos comerciais.
+\end{itemize}
+\end{frame}
+
+%%%
+%%% SLIDE 5: GENÉTICA
+%%%
+\begin{frame}
+\frametitle{Genética: O Código Quebrado}
+\textit{International Journal of Molecular Sciences (2023)}
 
 \vspace{0.5cm}
 \textbf{O Marco Científico:}
 \begin{itemize}
-    \item Primeiro \textbf{Genoma Completo a Nível Cromossômico}.
+    \item Sequenciamento completo do \textbf{Genoma Mitocondrial}.
 \end{itemize}
 
 \vspace{0.3cm}
-\textbf{Por que importa?}
+\textbf{A Surpresa:}
 \begin{itemize}
-    \item Permite Seleção Assistida por Marcadores (MAS).
-    \item Controle preciso da razão \textit{Linalol} (Flor) vs. \textit{Acetato de Linalila} (Frescor).
+    \item O DNA não é um círculo único (como na maioria das plantas).
+    \item Ele é dividido em \textbf{dois cromossomos circulares independentes}.
+    \item Isso explica a alta plasticidade fenotípica e resistência da espécie.
 \end{itemize}
 \end{frame}
 
-\section{Agronomia de Campo (Europa)}
+\section{Agronomia de Precisão}
 
 %%%
 %%% SLIDE 6: AGRONOMIA
 %%%
 \begin{frame}
-\frametitle{Europa: Otimização no Campo}
-\textit{Estudos da Itália (Sicília) e Ucrânia}
+\frametitle{Agronomia: A Regra das 16h}
+\textit{Estudos de Variação Circadiana (Hazrati et al.)}
 
 \begin{columns}[c]
 \begin{column}{.5\textwidth}
-\textbf{Itália (Qualidade):}
+\textbf{O Erro Comum:}
 \begin{itemize}
-    \item Estresse hídrico controlado favorece o acetato de linalila.
-    \item Plasticidade fenotípica alta.
+    \item Colher pela manhã (padrão para folhosas).
+    \item \textbf{Resultado:} Teor de óleo mínimo (0.59\%).
 \end{itemize}
 \end{column}
 
 \begin{column}{.5\textwidth}
-\textbf{Ucrânia (Produtividade):}
+\textbf{A Ciência (Otimização):}
 \begin{itemize}
-    \item Ano 1: Estabelecimento.
-    \item \textbf{Ano 2: Pico (15 ton/ha).}
-    \item Ano 3: Queda brusca (10\% do pico).
-    \item \textbf{Conclusão:} Rotação trienal obrigatória.
+    \item \textbf{Colheita Ideal: 16:00 -- 18:00.}
+    \item Teor de óleo dobra para \textbf{1.14\%}.
+    \item Ocorre o balanço ideal entre \textit{cis}-tujona e cânfora.
 \end{itemize}
 \end{column}
 \end{columns}
 \end{frame}
 
 \section{Aplicação na Olericultura}
-
+\begin{frame}
+\frametitle{Propagação}
+    \begin{center}
+        % O comando \href cria o link na imagem
+        \href{https://www.youtube.com/watch?v=QtpV7MqRGxk}{
+            % Coloque aqui um print do vídeo (salve como video_print.png)
+            \includegraphics[width=0.8\textwidth]{video_print.png}
+        }
+        
+        \vspace{0.1cm}
+        \footnotesize{(Clique na imagem para reproduzir no navegador)}
+    \end{center}
+\end{frame}
 %%%
-%%% SLIDE 7: TABELA TÉCNICA
+%%% SLIDE 7: mip
 %%%
 \begin{frame}
-\frametitle{Diretrizes de Cultivo (Padrão INRAE)}
-\small
-\begin{table}[]
-\centering
-\begin{tabular}{@{}ll@{}}
-\toprule
-\textbf{Parâmetro} & \textbf{Recomendação Científica} \\ \midrule
-\textbf{Ciclo} & Bienal a perene curta (Foco no 2º ano). \\
-\textbf{Solo} & Calcário, bem drenado. Tolera metais (cuidado!). \\
-\textbf{Ponto de Colheita} & \textbf{Estágio de ``Leite'':} Sementes da base leitosas, \\
- & flores do topo abertas. \\
-\textbf{Risco} & Colheita tardia reduz Linalol drasticamente. \\ \bottomrule
-\end{tabular}
-\end{table}
+    \frametitle{Manejo Integrado de Pragas (MIP)}
+    
+    % Subtítulo ou contexto geral
+    Óleo essencial de \textit{Salvia officinalis} no controle de caruncho do feijão
+    \vspace{0.3cm}
 
-\vspace{0.5cm}
-\textbf{Recomendação para Santa Catarina:}
-\begin{itemize}
-    \item Atenção à drenagem do solo (excesso de chuva prejudica o óleo).
-\end{itemize}
+    \begin{columns}[c] % O parâmetro [c] alinha verticalmente pelo centro
+    
+        % --- COLUNA DA ESQUERDA (TEXTO) ---
+        \begin{column}{0.55\textwidth}
+            \begin{itemize}
+                \item Doses superiores a 0,5 L t$^{-1}$ de grãos aumentam as taxas de mortalidade para mais de 95\%, 6 horas após a aplicação.
+                \vspace{0.3cm} % Espaço entre os itens
+                \item O óleo essencial aplicado com 0,5 L t$^{-1}$ de grãos induz uma taxa de repelência acima de 90\%.
+            \end{itemize}
+        \end{column}
+
+        % --- COLUNA DA DIREITA (IMAGEM) ---
+        \begin{column}{0.45\textwidth}
+            \begin{center}
+                % Ajustei a largura para preencher a coluna
+                \includegraphics[width=0.99\textwidth]{buracofeijao.jpg}
+                \vspace{-5mm}
+                
+                % Link formatado (se tiver o pacote hyperref) ou apenas texto
+                \tiny{\url{https://doi.org/10.1590/1983-40632016v4640034}}
+            \end{center}
+        \end{column}
+        
+    \end{columns}
 \end{frame}
-
 %%%
 %%% SLIDE 8: CONCLUSÃO
 %%%
@@ -260,9 +307,9 @@ Olericultura II | Agronomia | UFSC
 
 \vspace{0.5cm}
 \begin{itemize}
-    \item A \textit{Salvia sclarea} deixou de ser apenas uma cultura rústica.
-    \item É um alvo de \textbf{alta tecnologia} genética e biossintética.
-    \item O manejo agronômico deve focar na \textbf{colheita precisa} (estágio de leite) e rotação a cada 3 anos para viabilidade econômica.
+    \item A \textit{Salvia officinalis} vai além do tempero: é um ativo biotecnológico para a pele (TRPV4).
+    \item Sua genética mitocondrial é única (dois cromossomos).
+    \item Na Agronomia, o \textbf{relógio} é mais importante que o calendário: colher às 16h dobra a produção de óleo comparado à manhã.
 \end{itemize}
 \end{frame}
 
@@ -272,25 +319,13 @@ Olericultura II | Agronomia | UFSC
 {
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{capa.png}}
 \begin{frame}[plain]
-\vspace{15mm}
+\vspace{17mm}
 \begin{center}
-\textcolor{cinza}{\textbf{Obrigado}}
+\textcolor{cinza}{\textbf{Christian e Eloísa Cerezolli \\
+Agronomia UFSC}}
 \end{center}
 
-\vspace{-6mm}
-\begin{center}
-\textcolor{cinza}{\scriptsize{
-Dúvidas?
-}}
-\end{center}
 
-\vspace{10mm}
-\begin{center}
-\textcolor{cinza}{\scriptsize{
-Christian (18201955) \& Eloísa Cerezolli \\
-Agronomia UFSC
-}}
-\end{center}
 \end{frame}
 }
 
